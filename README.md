@@ -53,28 +53,59 @@ cd ConvolutionMedicalNer
 
 ### Performance of baseline models from reproduced model
 
+Tasks | AURUC | AURPC | F1
+------------------ | ----- | ----- | --
+Hospital Mortality | 87.88 | 56.84 | 44.51 
+ICU-Mortality|88.92 |52.09|43.58 
+LOS > 3 Days|69.60 |63.90 | 55.59
+LOS > 7 Days | 73.47 | 21.28 | 5.75 
 
-| Hospital Mortality ｜ 87.88 ｜ 56.84 ｜ 44.51 ｜
-|  ----  | ----  | ----  | ----  | ----  |
-｜ICU-Mortality｜88.92｜52.09｜43.58｜
-｜LOS > 3 Days｜69.60｜63.90｜55.59｜
-｜LOS > 7 Days｜73.47｜21.28｜5.75｜
 
 ### Performance of FastText Multimodal from reproduced model
 
-
-｜Hospital Mortality｜87.91｜58.37｜45.83｜
-｜ICU-Mortality ｜89.13｜53.04｜45.31｜
-｜LOS > 3 Days ｜70.62｜64.84｜57.12｜
-｜LOS > 7 Days｜72.69｜21.95｜2.19｜
+Tasks | AURUC | AURPC | F1
+------------------ | ----- | ----- | --
+Hospital Mortality|87.91|58.37|45.83
+ICU-Mortality|89.13|53.04|45.31
+LOS > 3 Days|70.62|64.84|57.12
+LOS > 7 Days|72.69|21.95|2.19
 
 ###  Performance of Word2Vec Multimodal from reproduced model
 
+Tasks | AURUC | AURPC | F1
+------------------ | ----- | ----- | --
+Hospital Mortality |88.0|58.73|48.42
+ICU-Mortality |89.17|52.12|45.00
+LOS > 3 Days |69.60|63.90|55.59
+LOS > 7 Days|73.6|22.80|3.8
 
-｜Hospital Mortality ｜88.0｜58.73｜48.42｜
-｜ICU-Mortality ｜89.17｜52.12｜45.00｜
-｜LOS $>$ 3 Days ｜69.60｜63.90｜55.59｜
-｜LOS $>$ 7 Days｜73.6｜22.80｜3.8｜
+ ### Performance of Word2Vec Multimodal from reproduced model
+ 
+Tasks | AURUC | AURPC | F1
+------------------ | ----- | ----- | --
+Hospital Mortality|88.0|58.73|48.42
+ICU-Mortality|89.17|52.12|45.00
+LOS > 3 Days|69.60|63.90|55.59
+LOS > 7 Days|73.6|22.80|3.8
+
+### Performance of proposed model with FastText Embedding from reproduced runs
+
+Tasks | AURUC | AURPC | F1
+------------------ | ----- | ----- | --
+Hospital Mortality|88.39|57.92|45.55
+ICU-Mortality|89.36|53.24|44.24
+LOS > 3 Days|69.83|63.68|55.43
+LOS > 7 Days|73.52|21.84|3.98
+
+###  Performance of proposed model with Word2Vec embedding from reproduced runs
+
+
+Tasks | AURUC | AURPC | F1
+------------------ | ----- | ----- | --
+Hospital Mortality |88.33|57.97|45.74
+ICU-Mortality|89.32|53.05|44.06
+LOS > 3 Days |69.80|63.74|55.68
+LOS > 7 Days|73.68|22.13|3.6
 
 ## References
 
