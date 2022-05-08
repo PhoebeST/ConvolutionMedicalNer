@@ -53,6 +53,7 @@ cd ConvolutionMedicalNer
 
 ### Performance of baseline models from reproduced model
 
+
 | Hospital Mortality ｜ 87.88 ｜ 56.84 ｜ 44.51 ｜
 |  ----  | ----  | ----  | ----  | ----  |
 ｜ICU-Mortality｜88.92｜52.09｜43.58｜
@@ -61,12 +62,14 @@ cd ConvolutionMedicalNer
 
 ### Performance of FastText Multimodal from reproduced model
 
+
 ｜Hospital Mortality｜87.91｜58.37｜45.83｜
 ｜ICU-Mortality ｜89.13｜53.04｜45.31｜
 ｜LOS > 3 Days ｜70.62｜64.84｜57.12｜
 ｜LOS > 7 Days｜72.69｜21.95｜2.19｜
 
 ###  Performance of Word2Vec Multimodal from reproduced model
+
 
 ｜Hospital Mortality ｜88.0｜58.73｜48.42｜
 ｜ICU-Mortality ｜89.17｜52.12｜45.00｜
