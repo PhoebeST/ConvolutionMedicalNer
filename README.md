@@ -53,7 +53,8 @@ cd ConvolutionMedicalNer
 
 ### Performance of baseline models from reproduced model
 
-｜Hospital Mortality ｜87.88｜56.84｜44.51｜
+|Hospital Mortality ｜87.88｜56.84｜44.51｜
+|  ----  | ----  | ----  | ----  | ----  |
 ｜ICU-Mortality｜88.92｜52.09｜43.58｜
 ｜LOS > 3 Days｜69.60｜63.90｜55.59｜
 ｜LOS > 7 Days｜73.47｜21.28｜5.75｜
