@@ -79,14 +79,6 @@ ICU-Mortality |89.17|52.12|45.00
 LOS > 3 Days |69.60|63.90|55.59
 LOS > 7 Days|73.6|22.80|3.8
 
- ### Performance of Word2Vec Multimodal from reproduced model
- 
-Tasks | AURUC | AURPC | F1
------------------- | ----- | ----- | --
-Hospital Mortality|88.0|58.73|48.42
-ICU-Mortality|89.17|52.12|45.00
-LOS > 3 Days|69.60|63.90|55.59
-LOS > 7 Days|73.6|22.80|3.8
 
 ### Performance of proposed model with FastText Embedding from reproduced runs
 
